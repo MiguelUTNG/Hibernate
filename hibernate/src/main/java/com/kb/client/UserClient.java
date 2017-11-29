@@ -16,20 +16,20 @@ public class UserClient {
 
 		// Add new user - Create of CRUD
 		User user1 = new User();
-		user1.setFirstName("vgfhbg");
-		user1.setLastName("Caghghgfgfg");
+		user1.setFirstName("Alex");
+		user1.setLastName("Ruiz");
 		try {
-			Date dob = new SimpleDateFormat("yyyy-MM-dd").parse("1995-01-01");
+			Date dob = new SimpleDateFormat("yyyy-MM-dd").parse("2000-01-01");
 			user1.setDob(dob);
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
-		user1.setEmail("john@sample.com");
+		user1.setEmail("alex@sample.com");
 		User user2 = new User();
 		user2.setFirstName("Robin");
 		user2.setLastName("RC");
 		try {
-			Date dob = new SimpleDateFormat("yyyy-MM-dd").parse("1975-01-01");
+			Date dob = new SimpleDateFormat("yyyy-MM-dd").parse("1998-01-01");
 			user2.setDob(dob);
 		} catch (ParseException e) {
 			e.printStackTrace();
